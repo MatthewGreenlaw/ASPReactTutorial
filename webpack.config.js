@@ -1,25 +1,34 @@
 ﻿﻿"use strict";
 
 var path = require("path");
-var WebpackNotifierPlugin = require("webpack-notifier");
-var BrowserSyncPlugin = require("browser-sync-webpack-plugin");
+//var WebpackNotifierPlugin = require("webpack-notifier");
+//var BrowserSyncPlugin = require("browser-sync-webpack-plugin");
 
 // https://sochix.ru/how-to-integrate-webpack-into-visual-studio-2015/
 module.exports = {
-    entry: "./Scripts/Home/react/index.js",
+    watch: true,
+    mode: "development",
+    devtool: "inline-source-map",
+    entry: {
+        home: "./src/jsx/Home/index.js",
+    },
     output: {
-        path: path.resolve(__dirname, "./Scripts/dist/Home/react"),
-        filename: "bundle.js"
+        path: path.join(__dirname, "dist"),
+        filename: "webpack/[name]/index.js"
     },
     //devServer: {
     //    contentBase: ".",
     //    host: "localhost",
     //    port: 9000
     //},
+    resolve: {
+        modules: [path.resolve('./node_modules')],
+        extensions: ['.js', '.jsx'] 
+    },
     module: {
         rules: [
             {
-                test: /\.js$|jsx/,
+                test: /\.js$|.jsx$/,
                 exclude: /node_modules/,
                 use: {
                     loader: "babel-loader",
@@ -33,6 +42,5 @@ module.exports = {
     },
     // Enable Source Map
     // https://webpack.js.org/configuration/devtool/
-    devtool: "inline-source-map",
     //plugins: [new WebpackNotifierPlugin(), new BrowserSyncPlugin()]
 };
