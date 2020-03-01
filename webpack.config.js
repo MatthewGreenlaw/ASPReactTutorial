@@ -11,6 +11,7 @@ module.exports = {
     devtool: "inline-source-map",
     entry: {
         home: "./src/jsx/Home/index.js",
+        playground: "./src/jsx/playground/index.js",
     },
     output: {
         path: path.join(__dirname, "dist"),
