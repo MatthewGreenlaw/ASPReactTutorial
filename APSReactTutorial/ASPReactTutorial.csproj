@@ -156,6 +156,7 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="dist\webpack\home\index.js" />
+    <Content Include="dist\webpack\parentComponent\index.js" />
     <Content Include="dist\webpack\playground\index.js" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
@@ -165,13 +166,18 @@
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="package.json" />
     <Content Include="src\api\CalendarsRepository.js" />
+    <Content Include="src\jsx\ChildComponent\ChildComponent.jsx" />
+    <Content Include="src\jsx\ChildComponent\index.js" />
     <Content Include="src\jsx\Home\Home.jsx" />
     <Content Include="src\jsx\Home\index.js" />
+    <Content Include="src\jsx\ParentComponnet\index.js" />
+    <Content Include="src\jsx\ParentComponnet\ParentComponent.jsx" />
     <Content Include="src\jsx\Playground\index.js" />
     <Content Include="src\jsx\Playground\Playground.jsx" />
+    <Content Include="src\jsx\testComponent\jsx1.jsx" />
     <Content Include="src\models\Calendar\index.js" />
     <Content Include="src\sharedHooks\index.js" />
-    <Content Include="src\sharedHooks\useApi.jsx" />
+    <Content Include="src\sharedHooks\useGetApi.jsx" />
     <Content Include="webpack.config.js" />
     <Content Include=".babelrc" />
     <Content Include=".gitignore" />
