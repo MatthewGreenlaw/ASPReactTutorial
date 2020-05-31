@@ -85,6 +85,22 @@ namespace ASPReactTutorial.Controllers
             return CreatedAtRoute("DefaultApi", new { id = calendar.ID }, calendar);
         }
 
+        /*
+        [ResponseType(typeof(Calendar))]
+        public IHttpActionResult PostCalendar(int id, String title, String startTime, String endTime)
+        {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+
+            db.Calendars.Add(calendar);
+            db.SaveChanges();
+
+            return CreatedAtRoute("DefaultApi", new { id = calendar.ID }, calendar);
+        }
+        */
+
         // DELETE: api/CalendarsRepository/5
         [ResponseType(typeof(Calendar))]
         public IHttpActionResult DeleteCalendar(int id)

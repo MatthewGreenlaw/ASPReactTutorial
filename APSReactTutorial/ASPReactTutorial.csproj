@@ -156,7 +156,6 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="dist\webpack\home\index.js" />
-    <Content Include="dist\webpack\playground\index.js" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -171,7 +170,7 @@
     <Content Include="src\jsx\Playground\Playground.jsx" />
     <Content Include="src\models\Calendar\index.js" />
     <Content Include="src\sharedHooks\index.js" />
-    <Content Include="src\sharedHooks\useApi.jsx" />
+    <Content Include="src\sharedHooks\useGetApi.jsx" />
     <Content Include="webpack.config.js" />
     <Content Include=".babelrc" />
     <Content Include=".gitignore" />
@@ -206,8 +205,11 @@
     <Content Include="Views\Calendars\Edit.cshtml" />
     <Content Include="Views\Calendars\Index.cshtml" />
     <Content Include="Views\Home\Playground.cshtml" />
+    <Content Include="Views\Home\Practice.cshtml" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="dist\webpack\playground\" />
+  </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />

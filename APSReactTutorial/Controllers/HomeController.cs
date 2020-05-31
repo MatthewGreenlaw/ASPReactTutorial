@@ -31,5 +31,10 @@ namespace ASPReactTutorial.Controllers
         {
             return View();
         }
+
+        public ActionResult Practice()
+        {
+            return View();
+        }
     }
 }
