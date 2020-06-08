@@ -11,8 +11,12 @@ module.exports = {
     devtool: "inline-source-map",
     entry: {
         home: "./src/jsx/Home/index.js",
+<<<<<<< HEAD
         playground: "./src/jsx/playground/index.js",
         practice: "./src/jsx/Practice/index.js",
+=======
+        parentComponent: "./src/jsx/ParentComponet/index.js",
+>>>>>>> origin/master
     },
     output: {
         path: path.join(__dirname, "dist"),

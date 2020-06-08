@@ -159,6 +159,11 @@
     <Content Include="Content\componentStyles\panel.css" />
     <Content Include="Content\componentStyles\table.css" />
     <Content Include="dist\webpack\home\index.js" />
+<<<<<<< HEAD
+=======
+    <Content Include="dist\webpack\parentComponent\index.js" />
+    <Content Include="dist\webpack\playground\index.js" />
+>>>>>>> origin/master
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -167,16 +172,27 @@
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="package.json" />
     <Content Include="src\api\CalendarsRepository.js" />
+<<<<<<< HEAD
     <Content Include="src\common\form.jsx" />
     <Content Include="src\common\input.jsx" />
     <Content Include="src\common\inputGroup.jsx" />
     <Content Include="src\common\viewTable.jsx" />
+=======
+    <Content Include="src\jsx\ChildComponent\ChildComponent.jsx" />
+    <Content Include="src\jsx\ChildComponent\index.js" />
+>>>>>>> origin/master
     <Content Include="src\jsx\Home\Home.jsx" />
     <Content Include="src\jsx\Home\index.js" />
+    <Content Include="src\jsx\ParentComponnet\index.js" />
+    <Content Include="src\jsx\ParentComponnet\ParentComponent.jsx" />
     <Content Include="src\jsx\Playground\index.js" />
     <Content Include="src\jsx\Playground\Playground.jsx" />
+<<<<<<< HEAD
     <Content Include="src\jsx\Practice\index.js" />
     <Content Include="src\jsx\Practice\Practice.jsx" />
+=======
+    <Content Include="src\jsx\testComponent\jsx1.jsx" />
+>>>>>>> origin/master
     <Content Include="src\models\Calendar\index.js" />
     <Content Include="src\sharedHooks\index.js" />
     <Content Include="src\sharedHooks\useGetApi.jsx" />
