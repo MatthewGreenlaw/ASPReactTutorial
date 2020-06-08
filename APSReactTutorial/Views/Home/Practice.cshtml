@@ -2,6 +2,15 @@
     ViewBag.Title = "Practice";
 }
 
+@section Styles {
+    <link href="@Url.Content("~/Content/componentStyles/panel.css")" rel="stylesheet" type="text/css" />
+    <link href="@Url.Content("~/Content/componentStyles/inputGroup.css")" rel="stylesheet" type="text/css" />
+    <link href="@Url.Content("~/Content/componentStyles/table.css")" rel="stylesheet" type="text/css" />
+}
+@section scripts {
+    <script src="@Url.Content("~/src/jsx/Practice/viewTable.jsx")"></script>
+}
+
 <div id="loadcontent">
     <div id="app"></div>
     <script src="@Url.Content("~/dist/webpack/practice/index.js")"></script>

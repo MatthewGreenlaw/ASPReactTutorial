@@ -1,0 +1,79 @@
+﻿.panel {
+    border-style: solid;
+    border-color: #000000;
+    border-width: 1px;
+    background-color: #e9ecef;
+}
+
+.tab {
+    padding: 3px;
+    margin-top: 3px;
+    border-style: solid;
+    border-bottom: transparent;
+    border-color: #000000;
+    border-width: 1px;
+    background-color: #AFABAB;
+    width: 70px;
+}
+
+.tabAppend {
+    border-left:transparent;
+}
+
+.colTitle {
+    margin: 0.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    background-color: #fff;
+    text-align: center;
+    font-weight: bold;
+    max-width: 100px;
+}
+
+.infoCol {
+	border-radius: 5px;
+	margin: 0.5rem;
+	background-color: #007bff;
+	position: relative;
+    width: 100%;
+    padding: 15px;
+}
+
+.infoCol-3 {
+    border-radius: 5px;
+	margin: 0.5rem;
+	background-color: #007bff;
+	position: relative;
+    max-width: 33.33%;
+    padding: 15px;
+}
+
+.infoCol-9 {
+    border-radius: 5px;
+	margin: 0.5rem;
+	background-color: #007bff;
+	position: relative;
+    max-width: 66.67%;
+    padding: 15px;
+}
+
+/* Remove later */
+.row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.col {
+    flex-basis: 0;
+    -webkit-box-flex: 1;
+    flex-grow: 1;
+    width: 100%;
+    min-height: 1px;
+}
+

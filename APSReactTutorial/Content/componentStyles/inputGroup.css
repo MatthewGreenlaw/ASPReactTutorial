@@ -1,0 +1,77 @@
+
+.formControl {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.inputGroup {
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+	-webkit-box-align: stretch;
+	align-items: stretch;
+	width: 100%;
+	margin-bottom: 0.5rem;
+	padding: 0.5rem;
+	background-color: #0d47a1;
+	border-radius: 5px;
+}
+
+.inputGroupPrepend {
+	margin-right: -1px;
+	display: flex;
+}
+
+.inputGroupTitle {
+	border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    padding: .375rem .75rem;
+    margin-bottom: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    text-align: center;
+    white-space: nowrap;
+    background-color: #e9ecef;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+}
+
+.inputGroup>.formControl {
+    position: relative;
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    width: 1%;
+    margin-bottom: 0;
+}
+
+.inputGroup>.formControl:not(:first-child) {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.errorTxt {
+    color: rgb(180, 12, 12);
+    background-color: black;
+    padding: 1px 4px 1px 4px;
+    margin-top: -0.5rem;
+    margin-bottom: 0.5rem;
+    border-radius: 3px;
+    float: right;
+
+    display: flex;
+}
