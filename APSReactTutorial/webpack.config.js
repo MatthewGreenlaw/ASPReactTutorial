@@ -12,7 +12,7 @@ module.exports = {
     entry: {
         home: "./src/jsx/Home/index.js",
         playground: "./src/jsx/playground/index.js",
-        practice: "./src/jsx/practice/index.js",
+        practice: "./src/jsx/Practice/index.js",
     },
     output: {
         path: path.join(__dirname, "dist"),

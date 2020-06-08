@@ -168,6 +168,8 @@
     <Content Include="src\jsx\Home\index.js" />
     <Content Include="src\jsx\Playground\index.js" />
     <Content Include="src\jsx\Playground\Playground.jsx" />
+    <Content Include="src\jsx\Practice\index.js" />
+    <Content Include="src\jsx\Practice\Practice.jsx" />
     <Content Include="src\models\Calendar\index.js" />
     <Content Include="src\sharedHooks\index.js" />
     <Content Include="src\sharedHooks\useGetApi.jsx" />
